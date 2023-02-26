@@ -31,7 +31,8 @@ s=sorted(s)
 data=''
 for i in range(30):
     assert len(s[i][1])==len(s[0][1])
-    b+=s[i][1]
+    b+=data[i][1]
+    
 f=open('img.jpeg','wb')
 f.write(bytes.fromhex(data))
 ```
