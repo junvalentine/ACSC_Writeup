@@ -1,0 +1,23 @@
+# Pcap-1
+## Information
+**Category** | **Points** 
+--- | --- 
+Warmup + Forensics | 50 
+
+## Description
+
+Here is a packet capture of my computer when I was preparing my presentation on Google Slides. Can you reproduce the contents of the slides?
+
+Note: If you find a "fake flag", submit it here. Some text next to the flag says that it is not accepted, but now it is. There are 2 flags in the challenge, and both are accepted. Part 1 accepts the flag that is easier to get.
+
+## Solution
+
+After searching for a while, i found [this](https://ctf-wiki.mahaloz.re/misc/traffic/protocols/USB/#usbkeyboarddatahacker).
+
+Apply their script to our pcapng file, we get the following message:
+```
+[+] Found : aasslliiddddeeeessss..ggggoooogglleeee..ccoooomm<RET><RET>CCTTFF<SPACE><SPACE><SPACE><SPACE>IInnttttttrroo<SPACE><SPACE>PPrrrreesssseeeennttaaaattiiiioonnbbbbccaaaabbaabbbbccbbccbbaaaaaabbbbaaaaaaaaaaaaHHooww<SPACE><SPACE>ttoo<SPACE><SPACE>bbee<SPACE><SPACE>ggoooodd<SPACE><SPACE>aaaatt<SPACE><SPACE>CCTTFFss??aaaaaaAA<SPACE><SPACE>bbeeggiinnnneeeerr''ss<SPACE><SPACE><SPACE><SPACE>gguuuuiiddddee<DEL><DEL>bbDDoonnoottcchheeaaaattaaaaaaGGgguuuueessssiiiinnnnggaaaaaabbiissbbbbaabbaaccaaggooooddaaaaaaaaccaaTTtthhiiiiss<SPACE><SPACE>iiiiss<SPACE><SPACE>aaaannnn<SPACE><SPACE><SPACE><SPACE>eexxxxaaaammpppppplleeee<SPACE><SPACE>ooooffff<SPACE><SPACE>aaaa<SPACE><SPACE>ffllllaaaagg""aaaaAACCSSCC{{aaaaff00rr33nnss11ccssbbbbaabbaaaaaaaaaaaaaaaaaaaaaaaa__bbaaaaiissccddaabb__aaaaaaaaaaaaaaaabbaaaaaaaass00aaaaaa__bbaaaaaaaaaaaaaaaabbaaaaaaaaaaaaaaffuumm<DEL><DEL>nnaaaaaaaaaaaaaaaaaaaaddddaabbbbccacacddbbccbbaaaabbaaaaaa}}aabbaabbbbddbbababbbbbbbaabbbbbbbbbbbbeebbaabbaaddaaaaaaaaaaaaaaaaaabbbbaaaaaaaaaabbaabbbbaaaabbaaababaaaaaabbaaaaaaaaaaaabbccggaabbccccbbccbbccccbbbbbbaaaaccbbbbaaaaccaabbccbbddccbbbbbbbbbbcbcbaabbccccffddaaffaaaaddcceeddaaffccddddaaddeeddbbccccbbddccccbbffbbbbaabbaaaaaabbaabbaaaaaaccaaaabbaaccbbccbbbbcccccccccceeddaaffddaaeeaaffeeeeaaaabbaakkeeeeaaeeddffaaaaddeeeeaaeeddaabbeeffddaaaaaaddffeebbbbaagghhhhhhbbbbiihhiibbccbbjjhhddbbbbhhiiggddbbbbbbhheeggbbaaeeeeeeddeeeeeeaaccaaggddaaffbbccbbbbbbaaaaaabbaaaabbaaaaccccccaaaaaaaaaaaaaaaaaaaaaabbaaaabbaabbccccbbbbbbbbccbbbbbbaaccaaccccbbbbbbaaaabbaabbddccaaaaffbbdddccdccaaccddccddaaaaaaffddaaddccddaaccccccbbbbaabbaaaaaaaaaaaaaaaaaaaaIIff<SPACE><SPACE><SPACE><SPACE>yyoooouuuu<SPACE><SPACE>ccccaaaann<SPACE><SPACE><SPACE><SPACE>rrrreeeeeeaaaadd<SPACE><SPACE>tttttthhiissss<SPACE><SPACE>mmmmeessssaaggggee,,<SPACE><SPACE>ccoonnnnggrraaaattss!!11<RET><RET>BBuuuutt<SPACE><SPACE><SPACE><SPACE>tttthheeee<SPACE><SPACE>ffllaaaagggg<SPACE><SPACE>yyoooouu<SPACE><SPACE>sssseeeeee<SPACE><SPACE>nnnnooww<SPACE><SPACE>iiiissss<SPACE><SPACE>nnnnooootttt<SPACE><SPACE><SPACE><SPACE>tthhhheeee<SPACE><SPACE>aacccceeeepptteeeeeedd<SPACE><SPACE>ffllllaaaagg..aaaaaaaaaaaaccaaaaaabbbbccbbccaabbcbcbbbbbccbbbbbbccccaabbddccaaccddaaccccffaabbccccbbbbaabbbbaaaaaaaaaaaaaaaabbeeaabbaaaabbaaddbbaaaaaaaaccaaaaccaabbaaababbbbbbbbbbbbbccbbaaccbbbbbbaaaabbbbaabbbbaabbaabbaabbaaaaccbbbbbbbbcccbcbaabbbbbbaaccaaaabbaaaabbaaaaaaaabbaabbaaaaaaaa<RET><RET>IInnssppeeeecctt<SPACE><SPACE><SPACE><SPACE>tttthhhheeee<SPACE><SPACE>ppppaaaacccckkeeeettttssss<SPACE><SPACE>mmmmmmmmrrrreeee<SPACE><SPACE>ddddeeeeppllyy,,<SPACE><SPACE>mmaa<DEL><DEL><DEL><DEL>aaaanndddd<SPACE><SPACE>yyoooouuuu<SPACE><SPACE>wwwwiillll<SPACE><SPACE>rrrreevvvveeaaaall<SPACE><SPACE>mmmmmmrrrreeee<SPACE><SPACE>iiiinnffoomm<DEL><DEL>rrrrmmaaaattiiiioonn<SPACE><SPACE><SPACE><SPACE>aaaabboooouuuutttt<SPACE><SPACE>wwwwhhhhaaaatttt<SPACE><SPACE>iissss<SPACE><SPACE>hhhhaaaappppeeeenniiiinngg..<RET><RET>II''mm<SPACE><SPACE><SPACE><SPACE>wwwwrrrriittttiiiinnnngggg<SPACE><SPACE>tttthhhhhhiissss<SPACE><SPACE><SPACE><SPACE>hheerrrree,,<SPACE><SPACE>ootthhhheeeerrrrwwiissssee<SPACE><SPACE>1111000000<SPACE><SPACE>ppeeeeoooopppplllleeee<SPACE><SPACE><SPACE><SPACE>wwiillll<SPACE><SPACE><SPACE><SPACE>ddmm<SPACE><SPACE>mmmmeeee<SPACE><SPACE>ttttoo<SPACE><SPACE>ssssaayy<SPACE><SPACE><SPACE><SPACE>tttthhaaaatt<SPACE><SPACE><SPACE><SPACE>tttthhee<SPACE><SPACE>ffllaaaagggg<SPACE><SPACE>iiss<SPACE><SPACE>nnnnooootttt<SPACE><SPACE>wwoorrrrkkiiiinnnngg,,,,<SPACE><SPACE>oooooooorr<SPACE><SPACE><DEL><DEL><DEL><DEL><DEL><DEL>rr<SPACE><SPACE><SPACE><SPACE>tthhhheeee<SPACE><SPACE>cccchhaalllleennggggee<SPACE><SPACE>iiiissss<SPACE><SPACE>bbrrookkeenn..<RET><RET>BBttww,,<SPACE><SPACE><SPACE><SPACE>II<SPACE><SPACE>ddoonn''tttt<SPACE><SPACE>lliikkeeee<SPACE><SPACE>ffoorreennssssiiccccssss<SPACE><SPACE>ttoooo..<SPACE><SPACE>""))
+```
+Each letter has been doubled, and there are needless characters like a and b, so we just need to remove them and get the flag.
+
+> Flag is: ACSC{f0r3ns1cs_is_s0_fun}
