@@ -37,6 +37,6 @@ f=open('img.jpeg','wb')
 f.write(bytes.fromhex(data))
 ```
 
-This time, my guess was right, but it's blurred, so i have to guess the flag and once again, by luck, i got the flag correctly (I got 10 minutes left when i solved this chall).
+This time, my guess was right, but the image  blurred, so i have to guess the flag and once again, by luck, i got the flag correctly (I got 10 minutes left when i solved this chall).
 
 > Flag is: ACSC{1tW@sE@syW@snt1t}
