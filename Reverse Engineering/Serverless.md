@@ -3,7 +3,7 @@
 ## Information
 **Category** | **Points** 
 --- | --- 
-RE | 80 
+Warmup + RE | 80 
 
 ## Description:
 
